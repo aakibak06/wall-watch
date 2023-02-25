@@ -1,0 +1,46 @@
+#container {
+    position: relative;
+    margin: auto;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background: url(watch3.png) no-repeat grey;
+    background-size: 100%;
+    
+}
+
+
+#hour,
+#minutes,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 13px;
+    height: 110px;
+    top: 138px;
+    left: 244px; 
+    /* background: blueviolet; */
+
+}
+
+#minutes {
+    width: 10px;
+    height: 135px;
+    top: 114px;
+    left: 244px;
+    /* background: gre/en; */
+
+}
+
+#second {
+    width: 2px;
+    height: 145px;
+    top: 109px;
+    left: 249px;
+    /* background: red; */
+}
